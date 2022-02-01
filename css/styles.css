@@ -1,0 +1,117 @@
+/* цвет основного текста #757575 */
+
+
+/* вторичный текст текста #212121 */
+
+
+/* акцент #2196F3 */
+
+
+/* белый #FFFFFF */
+
+
+/* вторичный цвет фона #F5F4FA  */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+}
+
+
+/* Стили для index.html */
+
+ul {
+    list-style: none;
+}
+
+.logo {}
+
+
+/* header */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.mail-tel .link {
+    color: var(--primary-text-color);
+}
+
+.mail-tel .link:hover,
+.mail-tel .link:focus {
+    color: var(--accent-color);
+}
+
+
+/* hero */
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.hero-button {
+    color: rgba(255, 255, 255.1);
+    background-color: var(--accent-color);
+}
+
+
+/* section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+
+/* features */
+
+.features .title {
+    color: var(--title-text-color);
+}
+
+
+/* our command */
+
+.section .name {
+    color: var(--title-text-color)
+}
+
+.section .profession {}
+
+
+/* footer */
+
+.address .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* Стили для Портфолио */
+
+
+/* button */
+
+.button {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+
+.button:hover,
+.button.focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}

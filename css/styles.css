@@ -8,13 +8,12 @@
                 --primary-text-color: #757575;
                 --title-text-color: #212121;
                 --accent-color: #2196F3;
-                --hero-color: #ffffff;
+                --accent-white-color: #ffffff;
                 --header-studio-color: #000000;
                 --footer-link-color: rgba(255, 255, 255, 0.6);
                 --hero-background-color: #2F303A;
-                --secondary-background-color: #E5E5E5;
-                --tertiary-background-color: #F5F4FA;
-                --hover-background-color: #188CE8;
+                --secondary-background-color: #F5F4FA;
+                --hero-hover-color: #188CE8;
                 --primary-font-weight: 400;
                 --secondary-font-weight: 700;
                 --header-font-weight: 500;
@@ -109,16 +108,16 @@
             }
             
             .hero-title {
-                color: var(--hero-color);
+                color: var(--accent-white-color);
                 font-weight: var(--hero-font-weight);
                 font-size: var(--hero-font-size);
                 line-height: var(--hero-line-height);
                 text-align: center;
-                letter-spacing: var(-hero-letter-spacing);
+                letter-spacing: var(--hero-letter-spacing);
             }
             
             .hero-button {
-                color: var(--hero-color);
+                color: var(--accent-white-color);
                 background-color: var(--accent-color);
                 font-weight: var(--secondary-font-weight);
                 font-size: var(--secondary-font-size);
@@ -127,11 +126,12 @@
                 letter-spacing: var(--hero-letter-spacing);
                 font-family: inherit;
                 cursor: pointer;
+                border-style: none;
             }
             
             .hero-button:hover,
             .hero-button:focus {
-                background-color: var(--hover-background-color: #188CE8);
+                background-color: var(--hero-hover-color);
             }
             /* section */
             
@@ -156,7 +156,7 @@
             /* our command */
             
             .section-command {
-                background-color: var(--tertiary-background-color);
+                background-color: var(--secondary-background-color);
             }
             
             .section-command .name {
@@ -174,7 +174,7 @@
             }
             
             .section-command .figure {
-                background-color: var(--primary-background-color);
+                background-color: var(--accent-white-color);
             }
             /* footer */
             
@@ -184,7 +184,7 @@
             }
             
             .address {
-                color: var(--hero-color);
+                color: var(--accent-white-color);
                 font-style: normal;
             }
             
@@ -202,18 +202,19 @@
             
             .button {
                 color: var(--title-text-color);
-                background-color: #F5F4FA;
+                background-color: var(--secondary-background-color);
                 font-weight: var(--header-font-weight);
                 font-size: var(--secondary-font-size);
                 line-height: --tertiary-line-height;
                 text-align: center;
                 font-family: inherit;
                 cursor: pointer;
+                border-style: none;
             }
             
             .button:hover,
             .button:focus {
-                color: #FFFFFF;
+                color: var(--accent-white-color);
                 background-color: var(--accent-color);
             }
             

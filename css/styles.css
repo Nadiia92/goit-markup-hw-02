@@ -29,7 +29,7 @@
                 --tertiary-line-height: 1.62x;
                 --logo-line-height: 1.19x;
                 --hero-line-height: 1.36x;
-                --hero-button-line-height: 1.88x;
+                --hero-button-line-height: 1.87x;
                 --h2-line-height: 1.16x;
                 --h3-line-height: 1.18x;
                 --image-title-line-height: 2.0x;
@@ -70,7 +70,7 @@
             }
             
             .logo .studio-footer {
-                color: var(--hero-color);
+                color: var(--accent-white-color);
             }
             /* header */
             
@@ -147,7 +147,6 @@
             .features .title {
                 color: var(--title-text-color);
                 font-weight: var(--secondary-font-weight);
-                line-height: var(--h3-line-height);
             }
             
             .features .text {
@@ -205,7 +204,7 @@
                 background-color: var(--secondary-background-color);
                 font-weight: var(--header-font-weight);
                 font-size: var(--secondary-font-size);
-                line-height: --tertiary-line-height;
+                line-height: var(--tertiary-line-height);
                 text-align: center;
                 font-family: inherit;
                 cursor: pointer;

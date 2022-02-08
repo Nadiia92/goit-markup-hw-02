@@ -147,6 +147,7 @@
             .features .title {
                 color: var(--title-text-color);
                 font-weight: var(--secondary-font-weight);
+                font-size: var(--primary-font-size);
             }
             
             .features .text {
